@@ -18,7 +18,7 @@ void reduce_fraction(int *a, int *b) {
 int main() {
     int a = 14, b = 49;
 
-    reduce_fraction(&a, &b); // вызываем функцию с адресамb переменных a, b
+    reduce_fraction(&a, &b); // вызываем функцию с адресами переменных a, b
 
     printf("%d / %d", a, b);
 
